@@ -60,4 +60,11 @@ bookSchema.methods.borrowBook = async function (
   }
   await this.save();
 };
+bookSchema.pre("save", function (next) {
+  this.available = this.copies > 0;
+  next();
+});
+bookSchema.post("save", function (doc) {
+  console.log(`"${doc.title}" has been updated and ${doc.copies} are left`);
+});
 export const Book = mongoose.model("Book", bookSchema);
