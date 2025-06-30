@@ -71,3 +71,17 @@ routes.patch("/api/books/:bookId", async (req: Request, res: Response) => {
     res.status(400).json({ success: false, message: error.message, error });
   }
 });
+routes.delete("/api/books/:bookId", async (req: Request, res: Response) => {
+  try {
+    const bookId = req.params.bookId;
+    const data = await Book.findByIdAndDelete(bookId);
+    res.status(201).json({
+      success: true,
+      message: "Book deleted successfully!",
+      data,
+    });
+  } catch (error: any) {
+    console.log(error);
+    res.status(400).json({ success: false, message: error.message, error });
+  }
+});
