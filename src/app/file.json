@@ -1,0 +1,167 @@
+[
+  {
+    "title": "The Theory of Everything",
+    "author": "Stephen Hawking",
+    "genre": "SCIENCE",
+    "isbn": "9780553380163",
+    "description": "An overview of cosmology and black holes.",
+    "copies": 5,
+    "available": true,
+    "createdAt": "2025-06-29T17:55:36.330Z",
+    "updatedAt": "2025-06-29T17:55:36.330Z"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "FICTION",
+    "isbn": "9780060935467",
+    "description": "A novel about racial injustice in the Deep South.",
+    "copies": 3,
+    "available": true,
+    "createdAt": "2025-06-29T18:16:52.420Z",
+    "updatedAt": "2025-06-29T18:16:52.420Z"
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "genre": "NON_FICTION",
+    "isbn": "9780062316097",
+    "description": "Explores the history and impact of Homo sapiens.",
+    "copies": 7,
+    "available": true,
+    "createdAt": "2025-06-29T18:17:08.118Z",
+    "updatedAt": "2025-06-29T18:17:08.118Z"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "FANTASY",
+    "isbn": "9780345339683",
+    "description": "Bilbo Baggins embarks on an unexpected journey.",
+    "copies": 10,
+    "available": true,
+    "createdAt": "2025-06-29T18:17:22.160Z",
+    "updatedAt": "2025-06-29T18:17:22.160Z"
+  },
+  {
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "genre": "BIOGRAPHY",
+    "isbn": "9781451648539",
+    "description": "The life and career of Apple co-founder Steve Jobs.",
+    "copies": 4,
+    "available": true,
+    "createdAt": "2025-06-29T18:17:34.089Z",
+    "updatedAt": "2025-06-29T18:17:34.089Z"
+  },
+  {
+    "title": "A People's History of the United States",
+    "author": "Howard Zinn",
+    "genre": "HISTORY",
+    "isbn": "9780062397348",
+    "description": "A bottom-up account of U.S. history.",
+    "copies": 2,
+    "available": true,
+    "createdAt": "2025-06-29T18:17:48.179Z",
+    "updatedAt": "2025-06-29T18:17:48.179Z"
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "genre": "NON_FICTION",
+    "isbn": "9780374533557",
+    "description": "A look into how our minds work and make decisions.",
+    "copies": 8,
+    "available": true,
+    "createdAt": "2025-06-29T18:21:00.000Z",
+    "updatedAt": "2025-06-29T18:21:00.000Z"
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "genre": "FANTASY",
+    "isbn": "9780439708180",
+    "description": "A young wizard begins his magical education.",
+    "copies": 12,
+    "available": true,
+    "createdAt": "2025-06-29T18:22:00.000Z",
+    "updatedAt": "2025-06-29T18:22:00.000Z"
+  },
+  {
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "genre": "SCIENCE",
+    "isbn": "9780192860927",
+    "description": "A revolutionary view of evolution.",
+    "copies": 5,
+    "available": true,
+    "createdAt": "2025-06-29T18:23:00.000Z",
+    "updatedAt": "2025-06-29T18:23:00.000Z"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "FICTION",
+    "isbn": "9780451524935",
+    "description": "A dystopian novel about surveillance and control.",
+    "copies": 9,
+    "available": true,
+    "createdAt": "2025-06-29T18:24:00.000Z",
+    "updatedAt": "2025-06-29T18:24:00.000Z"
+  },
+  {
+    "title": "Educated",
+    "author": "Tara Westover",
+    "genre": "BIOGRAPHY",
+    "isbn": "9780399590504",
+    "description": "A memoir of a woman who escapes her survivalist family.",
+    "copies": 3,
+    "available": true,
+    "createdAt": "2025-06-29T18:25:00.000Z",
+    "updatedAt": "2025-06-29T18:25:00.000Z"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "FICTION",
+    "isbn": "9780316769488",
+    "description": "A story about teenage angst and alienation.",
+    "copies": 4,
+    "available": true,
+    "createdAt": "2025-06-29T18:26:00.000Z",
+    "updatedAt": "2025-06-29T18:26:00.000Z"
+  },
+  {
+    "title": "Guns, Germs, and Steel",
+    "author": "Jared Diamond",
+    "genre": "HISTORY",
+    "isbn": "9780393317558",
+    "description": "The fates of human societies explained through geography.",
+    "copies": 6,
+    "available": true,
+    "createdAt": "2025-06-29T18:27:00.000Z",
+    "updatedAt": "2025-06-29T18:27:00.000Z"
+  },
+  {
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "genre": "FANTASY",
+    "isbn": "9780756404741",
+    "description": "The story of a magically gifted young man.",
+    "copies": 5,
+    "available": true,
+    "createdAt": "2025-06-29T18:28:00.000Z",
+    "updatedAt": "2025-06-29T18:28:00.000Z"
+  },
+  {
+    "title": "Cosmos",
+    "author": "Carl Sagan",
+    "genre": "SCIENCE",
+    "isbn": "9780345331359",
+    "description": "An exploration of the universe by one of its greatest interpreters.",
+    "copies": 7,
+    "available": true,
+    "createdAt": "2025-06-29T18:29:00.000Z",
+    "updatedAt": "2025-06-29T18:29:00.000Z"
+  }
+]

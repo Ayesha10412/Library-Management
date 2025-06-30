@@ -32,7 +32,21 @@ routes.get("/api/books", async (req: Request, res: Response) => {
       .limit(limit);
     res.status(201).json({
       success: true,
-      message: "Book created successfully!",
+      message: "Book retrieved successfully!",
+      data,
+    });
+  } catch (error: any) {
+    console.log(error);
+    res.status(400).json({ success: false, message: error.message, error });
+  }
+});
+routes.get("/api/books/:bookId", async (req: Request, res: Response) => {
+  try {
+    const bookId = req.params.bookId;
+    const data = await Book.find({ _id: bookId });
+    res.status(201).json({
+      success: true,
+      message: "Book retrieved successfully!",
       data,
     });
   } catch (error: any) {
