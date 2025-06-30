@@ -1,3 +1,5 @@
+import { Document } from "mongoose";
+
 export interface IBook {
   title: string;
   author: string;
@@ -13,3 +15,7 @@ export interface IBook {
   copies: number;
   available: boolean;
 }
+export interface IBookMethods {
+  borrowBook: (quantity: number) => Promise<void>;
+}
+export type BookDocument = Document & IBook & IBookMethods;
