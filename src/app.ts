@@ -5,7 +5,7 @@ import { route } from "./app/controller/borrow.controller";
 const app: Application = express();
 app.use(express.json());
 app.use("/routes", routes);
-app.use("/route", route);
+app.use("/route/api", route);
 app.get("/", (req: Request, res: Response) => {
   res.send("Welcome to Library management.");
 });
