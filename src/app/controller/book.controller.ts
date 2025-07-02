@@ -2,7 +2,7 @@ import express, { Request, Response } from "express";
 import { Book } from "../Models/book.models";
 export const routes = express.Router();
 //create book
-routes.post("/api/books", async (req: Request, res: Response) => {
+routes.post("/", async (req: Request, res: Response) => {
   try {
     const body = req.body;
     const data = await Book.create(body);
@@ -17,7 +17,7 @@ routes.post("/api/books", async (req: Request, res: Response) => {
   }
 });
 //get all books
-routes.get("/api/books", async (req: Request, res: Response) => {
+routes.get("/", async (req: Request, res: Response) => {
   try {
     const genre = req.query.filter as string;
     const sortBy = (req.query.sortBy as string) || "createdAt";
@@ -40,7 +40,7 @@ routes.get("/api/books", async (req: Request, res: Response) => {
     res.status(400).json({ success: false, message: error.message, error });
   }
 });
-routes.get("/api/books/:bookId", async (req: Request, res: Response) => {
+routes.get("/:bookId", async (req: Request, res: Response) => {
   try {
     const bookId = req.params.bookId;
     const data = await Book.find({ _id: bookId });
@@ -54,7 +54,7 @@ routes.get("/api/books/:bookId", async (req: Request, res: Response) => {
     res.status(400).json({ success: false, message: error.message, error });
   }
 });
-routes.patch("/api/books/:bookId", async (req: Request, res: Response) => {
+routes.patch("/:bookId", async (req: Request, res: Response) => {
   try {
     const bookId = req.params.bookId;
     const updatedBody = req.body;
@@ -71,7 +71,7 @@ routes.patch("/api/books/:bookId", async (req: Request, res: Response) => {
     res.status(400).json({ success: false, message: error.message, error });
   }
 });
-routes.delete("/api/books/:bookId", async (req: Request, res: Response) => {
+routes.delete("/:bookId", async (req: Request, res: Response) => {
   try {
     const bookId = req.params.bookId;
     const data = await Book.findByIdAndDelete(bookId);

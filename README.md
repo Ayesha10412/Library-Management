@@ -8,11 +8,11 @@ This is a **Node.js + Express + MongoDB** based Library Management System. It su
 
 | Method   | Endpoint             | Description           |
 | :------- | :------------------- | :-------------------- |
-| `POST`   | `	/api/books`         | Create a new book     |
-| `GET`    | `	/api/books`         | Get all books         |
-| `GET`    | `	/api/books/:bookId` | Get a book by it's id |
-| `PATCH`  | `	/api/books/:bookId` | Update book           |
-| `DELETE` | `	/api/books/:bookId` | Delete a book         |
+| `POST`   | `/api/books`         | Create a new book     |
+| `GET`    | `/api/books`         | Get all books         |
+| `GET`    | `/api/books/:bookId` | Get a book by it's id |
+| `PATCH`  | `/api/books/:bookId` | Update book           |
+| `DELETE` | `/api/books/:bookId` | Delete a book         |
 
 #### Filters and sorting
 
