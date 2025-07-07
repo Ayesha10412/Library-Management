@@ -2,9 +2,41 @@
 
 This is a **Node.js + Express + MongoDB** based Library Management System. It supports **CRUD operations** for books and a **borrowing system** with due dates and real-time stock updates. It uses **Mongoose** for schema modeling and includes input validation, error handling, and aggregation pipelines.
 
-## API Endpoints
+## Technology Stack
 
-**Book Routes:**
+- Node.js
+- Express.js
+- TypeScript
+- MongoDB + Mongoose
+
+## Installation & Setup Instructions
+
+## Installation
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/your-username/library-management.git
+   cd library-management
+
+   ```
+
+2. Install dependencies:
+
+npm install
+
+3. Add .env file:
+
+MONGODB_URI=mongodb://localhost:27017/libraryDB
+PORT=5000
+
+4. Run the server:
+
+npm run dev
+
+Server runs on http://localhost:5000
+
+## API Documentation
 
 | Method   | Endpoint             | Description           |
 | :------- | :------------------- | :-------------------- |
@@ -42,24 +74,21 @@ Quantity is positive integer
 
 Due date is in the future
 
-**Features Highlights:**
+## Features
 
-Inventory control — borrowBook() method auto-updates stock
+- Inventory control — borrowBook() method auto-updates stock
+- Due date validation — cannot borrow with past dates
+- Real-time availability — toggles available status
+- Aggregate summary — total borrow per book with title & ISBN
 
-Due date validation — cannot borrow with past dates
+## Future Improvements
 
-Real-time availability — toggles available status
+- User authentication & roles (Admin, Member)
 
-Aggregate summary — total borrow per book with title & ISBN
+- Borrow history by user
 
-**Future Improvements**
+- Notification system for due dates
 
-User authentication & roles (Admin, Member)
+- Unit & Integration testing
 
-Borrow history by user
-
-Notification system for due dates
-
-Unit & Integration testing
-
-Swagger/OpenAPI documentation
+- Swagger/OpenAPI documentation
