@@ -5,6 +5,7 @@ import dotenv from "dotenv";
 dotenv.config();
 let server: Server;
 const PORT = 5000;
+
 async function main() {
   try {
     await mongoose.connect(process.env.MONGODB_URI as string);
