@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors({ origin: "http://localhost:5173" }));
 
 app.use("/api/books", routes);
-app.use("/api/borrow", route);
+app.use("/borrow", route);
 app.get("/", (req: Request, res: Response) => {
   res.send("Welcome to Library management.");
 });
